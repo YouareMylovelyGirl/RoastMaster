@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293E386DF329F6D1155BB79A /* libPods-RoastMaster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D701F9EAC5861BAAD44D87 /* libPods-RoastMaster.a */; };
+		A4FDF4B21E3DC3FD00A443DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4B11E3DC3FD00A443DA /* main.m */; };
+		A4FDF50C1E3DC60600A443DA /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4D51E3DC60600A443DA /* NSObject+Parse.m */; };
+		A4FDF50D1E3DC60600A443DA /* NSString+YGURL.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4D71E3DC60600A443DA /* NSString+YGURL.m */; };
+		A4FDF50E1E3DC60600A443DA /* UIScrollView+YGRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4D91E3DC60600A443DA /* UIScrollView+YGRefresh.m */; };
+		A4FDF50F1E3DC60600A443DA /* UIView+YGHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4DB1E3DC60600A443DA /* UIView+YGHUD.m */; };
+		A4FDF5101E3DC60600A443DA /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4E01E3DC60600A443DA /* BaseNetManager.m */; };
+		A4FDF5111E3DC60600A443DA /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4E21E3DC60600A443DA /* NetManager.m */; };
+		A4FDF5121E3DC60600A443DA /* CategoryListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4E71E3DC60600A443DA /* CategoryListController.m */; };
+		A4FDF5131E3DC60600A443DA /* CateListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4EB1E3DC60600A443DA /* CateListController.m */; };
+		A4FDF5141E3DC60600A443DA /* CategoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4F01E3DC60600A443DA /* CategoryItem.m */; };
+		A4FDF5151E3DC60600A443DA /* CategoryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4F31E3DC60600A443DA /* CategoryListCell.m */; };
+		A4FDF5161E3DC60600A443DA /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4F51E3DC60600A443DA /* PageViewController.m */; };
+		A4FDF5171E3DC60600A443DA /* RecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4F91E3DC60600A443DA /* RecommendController.m */; };
+		A4FDF5181E3DC60600A443DA /* RecommendWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4FB1E3DC60600A443DA /* RecommendWebController.m */; };
+		A4FDF5191E3DC60600A443DA /* RecommendItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF4FE1E3DC60600A443DA /* RecommendItem.m */; };
+		A4FDF51A1E3DC60600A443DA /* RecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF5011E3DC60600A443DA /* RecommendCell.m */; };
+		A4FDF51B1E3DC60600A443DA /* RecommendSmallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF5031E3DC60600A443DA /* RecommendSmallCell.m */; };
+		A4FDF51D1E3DC63C00A443DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4FDF51C1E3DC63C00A443DA /* Info.plist */; };
+		A4FDF5201E3DC69200A443DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF51F1E3DC69200A443DA /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84CAD08F00B97C8B30BEEE47 /* Pods-RoastMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoastMaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoastMaster/Pods-RoastMaster.release.xcconfig"; sourceTree = "<group>"; };
+		A4FDF4AD1E3DC3FD00A443DA /* RoastMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoastMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FDF4B11E3DC3FD00A443DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4FDF4D41E3DC60600A443DA /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
+		A4FDF4D51E3DC60600A443DA /* NSObject+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Parse.m"; sourceTree = "<group>"; };
+		A4FDF4D61E3DC60600A443DA /* NSString+YGURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YGURL.h"; sourceTree = "<group>"; };
+		A4FDF4D71E3DC60600A443DA /* NSString+YGURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YGURL.m"; sourceTree = "<group>"; };
+		A4FDF4D81E3DC60600A443DA /* UIScrollView+YGRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YGRefresh.h"; sourceTree = "<group>"; };
+		A4FDF4D91E3DC60600A443DA /* UIScrollView+YGRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YGRefresh.m"; sourceTree = "<group>"; };
+		A4FDF4DA1E3DC60600A443DA /* UIView+YGHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YGHUD.h"; sourceTree = "<group>"; };
+		A4FDF4DB1E3DC60600A443DA /* UIView+YGHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YGHUD.m"; sourceTree = "<group>"; };
+		A4FDF4DF1E3DC60600A443DA /* BaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetManager.h; sourceTree = "<group>"; };
+		A4FDF4E01E3DC60600A443DA /* BaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetManager.m; sourceTree = "<group>"; };
+		A4FDF4E11E3DC60600A443DA /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		A4FDF4E21E3DC60600A443DA /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		A4FDF4E61E3DC60600A443DA /* CategoryListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListController.h; sourceTree = "<group>"; };
+		A4FDF4E71E3DC60600A443DA /* CategoryListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListController.m; sourceTree = "<group>"; };
+		A4FDF4EA1E3DC60600A443DA /* CateListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CateListController.h; sourceTree = "<group>"; };
+		A4FDF4EB1E3DC60600A443DA /* CateListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CateListController.m; sourceTree = "<group>"; };
+		A4FDF4EF1E3DC60600A443DA /* CategoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryItem.h; sourceTree = "<group>"; };
+		A4FDF4F01E3DC60600A443DA /* CategoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryItem.m; sourceTree = "<group>"; };
+		A4FDF4F21E3DC60600A443DA /* CategoryListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListCell.h; sourceTree = "<group>"; };
+		A4FDF4F31E3DC60600A443DA /* CategoryListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListCell.m; sourceTree = "<group>"; };
+		A4FDF4F41E3DC60600A443DA /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		A4FDF4F51E3DC60600A443DA /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		A4FDF4F81E3DC60600A443DA /* RecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendController.h; sourceTree = "<group>"; };
+		A4FDF4F91E3DC60600A443DA /* RecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendController.m; sourceTree = "<group>"; };
+		A4FDF4FA1E3DC60600A443DA /* RecommendWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendWebController.h; sourceTree = "<group>"; };
+		A4FDF4FB1E3DC60600A443DA /* RecommendWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendWebController.m; sourceTree = "<group>"; };
+		A4FDF4FD1E3DC60600A443DA /* RecommendItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendItem.h; sourceTree = "<group>"; };
+		A4FDF4FE1E3DC60600A443DA /* RecommendItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendItem.m; sourceTree = "<group>"; };
+		A4FDF5001E3DC60600A443DA /* RecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendCell.h; sourceTree = "<group>"; };
+		A4FDF5011E3DC60600A443DA /* RecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendCell.m; sourceTree = "<group>"; };
+		A4FDF5021E3DC60600A443DA /* RecommendSmallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendSmallCell.h; sourceTree = "<group>"; };
+		A4FDF5031E3DC60600A443DA /* RecommendSmallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendSmallCell.m; sourceTree = "<group>"; };
+		A4FDF5081E3DC60600A443DA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A4FDF51C1E3DC63C00A443DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FDF51E1E3DC69200A443DA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4FDF51F1E3DC69200A443DA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3D701F9EAC5861BAAD44D87 /* libPods-RoastMaster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoastMaster.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75B9C66BDE9E5E686CCD576 /* Pods-RoastMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoastMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoastMaster/Pods-RoastMaster.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FDF4AA1E3DC3FD00A443DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293E386DF329F6D1155BB79A /* libPods-RoastMaster.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BC26C4EA833B938D5E579F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D701F9EAC5861BAAD44D87 /* libPods-RoastMaster.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		516833C8A8ED4E07439CC77B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C75B9C66BDE9E5E686CCD576 /* Pods-RoastMaster.debug.xcconfig */,
+				84CAD08F00B97C8B30BEEE47 /* Pods-RoastMaster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4FDF4A41E3DC3FD00A443DA = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4AF1E3DC3FD00A443DA /* RoastMaster */,
+				A4FDF4AE1E3DC3FD00A443DA /* Products */,
+				516833C8A8ED4E07439CC77B /* Pods */,
+				11BC26C4EA833B938D5E579F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FDF4AE1E3DC3FD00A443DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4AD1E3DC3FD00A443DA /* RoastMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FDF4AF1E3DC3FD00A443DA /* RoastMaster */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF51E1E3DC69200A443DA /* AppDelegate.h */,
+				A4FDF51F1E3DC69200A443DA /* AppDelegate.m */,
+				A4FDF4D31E3DC60600A443DA /* Category */,
+				A4FDF4DC1E3DC60600A443DA /* Controller */,
+				A4FDF4DD1E3DC60600A443DA /* model */,
+				A4FDF4DE1E3DC60600A443DA /* NetManager */,
+				A4FDF4E31E3DC60600A443DA /* Pages(页面) */,
+				A4FDF5091E3DC60600A443DA /* Resourse */,
+				A4FDF50A1E3DC60600A443DA /* Vendor */,
+				A4FDF50B1E3DC60600A443DA /* View */,
+				A4FDF4B01E3DC3FD00A443DA /* Supporting Files */,
+			);
+			path = RoastMaster;
+			sourceTree = "<group>";
+		};
+		A4FDF4B01E3DC3FD00A443DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF5081E3DC60600A443DA /* PrefixHeader.pch */,
+				A4FDF51C1E3DC63C00A443DA /* Info.plist */,
+				A4FDF4B11E3DC3FD00A443DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4FDF4D31E3DC60600A443DA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4D41E3DC60600A443DA /* NSObject+Parse.h */,
+				A4FDF4D51E3DC60600A443DA /* NSObject+Parse.m */,
+				A4FDF4D61E3DC60600A443DA /* NSString+YGURL.h */,
+				A4FDF4D71E3DC60600A443DA /* NSString+YGURL.m */,
+				A4FDF4D81E3DC60600A443DA /* UIScrollView+YGRefresh.h */,
+				A4FDF4D91E3DC60600A443DA /* UIScrollView+YGRefresh.m */,
+				A4FDF4DA1E3DC60600A443DA /* UIView+YGHUD.h */,
+				A4FDF4DB1E3DC60600A443DA /* UIView+YGHUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A4FDF4DC1E3DC60600A443DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4FDF4DD1E3DC60600A443DA /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A4FDF4DE1E3DC60600A443DA /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4DF1E3DC60600A443DA /* BaseNetManager.h */,
+				A4FDF4E01E3DC60600A443DA /* BaseNetManager.m */,
+				A4FDF4E11E3DC60600A443DA /* NetManager.h */,
+				A4FDF4E21E3DC60600A443DA /* NetManager.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		A4FDF4E31E3DC60600A443DA /* Pages(页面) */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4E41E3DC60600A443DA /* Category(分类) */,
+				A4FDF4F41E3DC60600A443DA /* PageViewController.h */,
+				A4FDF4F51E3DC60600A443DA /* PageViewController.m */,
+				A4FDF4F61E3DC60600A443DA /* Recommend(推荐) */,
+				A4FDF5041E3DC60600A443DA /* Recommend(推荐)的副本 */,
+			);
+			path = "Pages(页面)";
+			sourceTree = "<group>";
+		};
+		A4FDF4E41E3DC60600A443DA /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4E51E3DC60600A443DA /* Controller */,
+				A4FDF4EE1E3DC60600A443DA /* Model */,
+				A4FDF4F11E3DC60600A443DA /* View */,
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		A4FDF4E51E3DC60600A443DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4E61E3DC60600A443DA /* CategoryListController.h */,
+				A4FDF4E71E3DC60600A443DA /* CategoryListController.m */,
+				A4FDF4E81E3DC60600A443DA /* CateList */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4FDF4E81E3DC60600A443DA /* CateList */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4E91E3DC60600A443DA /* Controller */,
+				A4FDF4EC1E3DC60600A443DA /* Model */,
+				A4FDF4ED1E3DC60600A443DA /* View */,
+			);
+			path = CateList;
+			sourceTree = "<group>";
+		};
+		A4FDF4E91E3DC60600A443DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4EA1E3DC60600A443DA /* CateListController.h */,
+				A4FDF4EB1E3DC60600A443DA /* CateListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4FDF4EC1E3DC60600A443DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4FDF4ED1E3DC60600A443DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4FDF4EE1E3DC60600A443DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4EF1E3DC60600A443DA /* CategoryItem.h */,
+				A4FDF4F01E3DC60600A443DA /* CategoryItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4FDF4F11E3DC60600A443DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4F21E3DC60600A443DA /* CategoryListCell.h */,
+				A4FDF4F31E3DC60600A443DA /* CategoryListCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4FDF4F61E3DC60600A443DA /* Recommend(推荐) */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4F71E3DC60600A443DA /* Controller */,
+				A4FDF4FC1E3DC60600A443DA /* Model */,
+				A4FDF4FF1E3DC60600A443DA /* View */,
+			);
+			path = "Recommend(推荐)";
+			sourceTree = "<group>";
+		};
+		A4FDF4F71E3DC60600A443DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4F81E3DC60600A443DA /* RecommendController.h */,
+				A4FDF4F91E3DC60600A443DA /* RecommendController.m */,
+				A4FDF4FA1E3DC60600A443DA /* RecommendWebController.h */,
+				A4FDF4FB1E3DC60600A443DA /* RecommendWebController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4FDF4FC1E3DC60600A443DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF4FD1E3DC60600A443DA /* RecommendItem.h */,
+				A4FDF4FE1E3DC60600A443DA /* RecommendItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4FDF4FF1E3DC60600A443DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF5001E3DC60600A443DA /* RecommendCell.h */,
+				A4FDF5011E3DC60600A443DA /* RecommendCell.m */,
+				A4FDF5021E3DC60600A443DA /* RecommendSmallCell.h */,
+				A4FDF5031E3DC60600A443DA /* RecommendSmallCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4FDF5041E3DC60600A443DA /* Recommend(推荐)的副本 */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDF5051E3DC60600A443DA /* Controller */,
+				A4FDF5061E3DC60600A443DA /* Model */,
+				A4FDF5071E3DC60600A443DA /* View */,
+			);
+			path = "Recommend(推荐)的副本";
+			sourceTree = "<group>";
+		};
+		A4FDF5051E3DC60600A443DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4FDF5061E3DC60600A443DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4FDF5071E3DC60600A443DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4FDF5091E3DC60600A443DA /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		A4FDF50A1E3DC60600A443DA /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A4FDF50B1E3DC60600A443DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FDF4AC1E3DC3FD00A443DA /* RoastMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FDF4C41E3DC3FD00A443DA /* Build configuration list for PBXNativeTarget "RoastMaster" */;
+			buildPhases = (
+				9DCD3098BA184FE9302C857C /* [CP] Check Pods Manifest.lock */,
+				A4FDF4A91E3DC3FD00A443DA /* Sources */,
+				A4FDF4AA1E3DC3FD00A443DA /* Frameworks */,
+				A4FDF4AB1E3DC3FD00A443DA /* Resources */,
+				5DC3FDD2224B9082B5B547DF /* [CP] Embed Pods Frameworks */,
+				87146D99DFE59AAB70F8396A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoastMaster;
+			productName = RoastMaster;
+			productReference = A4FDF4AD1E3DC3FD00A443DA /* RoastMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FDF4A51E3DC3FD00A443DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YG;
+				TargetAttributes = {
+					A4FDF4AC1E3DC3FD00A443DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4FDF4A81E3DC3FD00A443DA /* Build configuration list for PBXProject "RoastMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FDF4A41E3DC3FD00A443DA;
+			productRefGroup = A4FDF4AE1E3DC3FD00A443DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FDF4AC1E3DC3FD00A443DA /* RoastMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FDF4AB1E3DC3FD00A443DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FDF51D1E3DC63C00A443DA /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DC3FDD2224B9082B5B547DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoastMaster/Pods-RoastMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87146D99DFE59AAB70F8396A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoastMaster/Pods-RoastMaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DCD3098BA184FE9302C857C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FDF4A91E3DC3FD00A443DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FDF4B21E3DC3FD00A443DA /* main.m in Sources */,
+				A4FDF5121E3DC60600A443DA /* CategoryListController.m in Sources */,
+				A4FDF5201E3DC69200A443DA /* AppDelegate.m in Sources */,
+				A4FDF5191E3DC60600A443DA /* RecommendItem.m in Sources */,
+				A4FDF51B1E3DC60600A443DA /* RecommendSmallCell.m in Sources */,
+				A4FDF5171E3DC60600A443DA /* RecommendController.m in Sources */,
+				A4FDF51A1E3DC60600A443DA /* RecommendCell.m in Sources */,
+				A4FDF50E1E3DC60600A443DA /* UIScrollView+YGRefresh.m in Sources */,
+				A4FDF5131E3DC60600A443DA /* CateListController.m in Sources */,
+				A4FDF5181E3DC60600A443DA /* RecommendWebController.m in Sources */,
+				A4FDF5151E3DC60600A443DA /* CategoryListCell.m in Sources */,
+				A4FDF50C1E3DC60600A443DA /* NSObject+Parse.m in Sources */,
+				A4FDF50F1E3DC60600A443DA /* UIView+YGHUD.m in Sources */,
+				A4FDF5141E3DC60600A443DA /* CategoryItem.m in Sources */,
+				A4FDF5111E3DC60600A443DA /* NetManager.m in Sources */,
+				A4FDF5101E3DC60600A443DA /* BaseNetManager.m in Sources */,
+				A4FDF50D1E3DC60600A443DA /* NSString+YGURL.m in Sources */,
+				A4FDF5161E3DC60600A443DA /* PageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4FDF4C21E3DC3FD00A443DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4FDF4C31E3DC3FD00A443DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FDF4C51E3DC3FD00A443DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75B9C66BDE9E5E686CCD576 /* Pods-RoastMaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = $PRODUCT_NAME/PrefixHeader.pch;
+				INFOPLIST_FILE = RoastMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YG.RoastMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4FDF4C61E3DC3FD00A443DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CAD08F00B97C8B30BEEE47 /* Pods-RoastMaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = $PRODUCT_NAME/PrefixHeader.pch;
+				INFOPLIST_FILE = RoastMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YG.RoastMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FDF4A81E3DC3FD00A443DA /* Build configuration list for PBXProject "RoastMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FDF4C21E3DC3FD00A443DA /* Debug */,
+				A4FDF4C31E3DC3FD00A443DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FDF4C41E3DC3FD00A443DA /* Build configuration list for PBXNativeTarget "RoastMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FDF4C51E3DC3FD00A443DA /* Debug */,
+				A4FDF4C61E3DC3FD00A443DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FDF4A51E3DC3FD00A443DA /* Project object */;
+}
