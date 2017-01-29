@@ -27,6 +27,7 @@
 		A4FDF51B1E3DC60600A443DA /* RecommendSmallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF5031E3DC60600A443DA /* RecommendSmallCell.m */; };
 		A4FDF51D1E3DC63C00A443DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4FDF51C1E3DC63C00A443DA /* Info.plist */; };
 		A4FDF5201E3DC69200A443DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDF51F1E3DC69200A443DA /* AppDelegate.m */; };
+		A4FDF5221E3DC83E00A443DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FDF5211E3DC83E00A443DA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		A4FDF51C1E3DC63C00A443DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4FDF51E1E3DC69200A443DA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4FDF51F1E3DC69200A443DA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4FDF5211E3DC83E00A443DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D701F9EAC5861BAAD44D87 /* libPods-RoastMaster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoastMaster.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75B9C66BDE9E5E686CCD576 /* Pods-RoastMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoastMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoastMaster/Pods-RoastMaster.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -346,6 +348,7 @@
 		A4FDF5091E3DC60600A443DA /* Resourse */ = {
 			isa = PBXGroup;
 			children = (
+				A4FDF5211E3DC83E00A443DA /* Assets.xcassets */,
 			);
 			path = Resourse;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FDF5221E3DC83E00A443DA /* Assets.xcassets in Resources */,
 				A4FDF51D1E3DC63C00A443DA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,6 +605,7 @@
 			baseConfigurationReference = C75B9C66BDE9E5E686CCD576 /* Pods-RoastMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = $PRODUCT_NAME/PrefixHeader.pch;
 				INFOPLIST_FILE = RoastMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -614,6 +619,7 @@
 			baseConfigurationReference = 84CAD08F00B97C8B30BEEE47 /* Pods-RoastMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = $PRODUCT_NAME/PrefixHeader.pch;
 				INFOPLIST_FILE = RoastMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
